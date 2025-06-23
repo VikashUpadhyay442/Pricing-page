@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# temporary
+temp/
+
+# VS Code settings
+.vscode/

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet" />
+    <title>Pricing Page</title>
+  </head>
+  <body class="bg-teal-400" text-[120%] style="font-family: 'Playfair Display', serif">
+    <nav class="relative bg-sky-300">
+      <div class="max-w-[90%] flex justify-between mx-auto text-xl p-1">
+        <h1><a href="#" class="hover:text-white transition-transform duration-300">Web Crafter</a></h1>
+        <details class="relative flex md:hidden flex-col text-right">
+          <summary class="cursor-pointer list-none">☰</summary>
+          <ul class="absolute right-0 z-50 flex flex-col gap-3.5 bg-sky-200 rounded p-2 mt-2">
+            <li><a href="#pricing" class="hover:text-white transition-transform duration-300">Pricing</a></li>
+            <li>
+              <a href="#comparison" class="hover:text-white transition-transform duration-300">Comparison</a>
+            </li>
+            <li><a href="#faq" class="hover:text-white transition-transform duration-300">FAQ</a></li>
+          </ul>
+        </details>
+        <ul class="hidden gap-3.5 md:flex">
+          <li><a href="#pricing" class="hover:text-white transition-transform duration-300">Pricing</a></li>
+          <li>
+            <a href="#comparison" class="hover:text-white transition-transform duration-300">Comparison</a>
+          </li>
+          <li><a href="#faq" class="hover:text-white transition-transform duration-300">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero" class="flex flex-col items-center max-w-[90%] mx-auto my-7">
+      <h1 class="text-white text-center text-5xl font-bold">
+        Services for everyone<br />
+        Your Services, Your Price
+      </h1>
+      <h3 class="text-2xl py-2 text-yellow-200">No hidden fees. Cancel anytime.</h3>
+    </section>
+
+    <section
+      id="pricing"
+      class="flex flex-col gap-6 justify-center items-center max-w-[90%] mx-auto my-7 md:flex-row">
+      <div
+        class="bg-sky-100 m-auto md:mt-12 flex flex-col items-center p-3 w-[70%] md:w-[30%] md:h-[30%] rounded-2xl">
+        <h2 class="text-xl text-center">Free Plan</h2>
+        <p class="text-5xl">$0</p>
+        <p class="text-sm/6">/per month</p>
+        <button
+          class="bg-sky-500 text-white w-32 h-10 rounded mt-2 mb-5 hover:bg-purple-500 hover:scale-110 transition-transform duration-300">
+          Get Started
+        </button>
+        <h3 class="font-bold">Ideal for:</h3>
+        <p>New users or for personal use</p>
+        <h3 class="font-bold">Included Features:</h3>
+        <ul>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            1 user
+          </li>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            Basic support
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="bg-sky-100 m-auto flex flex-col items-center pb-3 w-[85%] md:w-[40%] md:h-[40%] border-4 border-pink-400 rounded-2xl">
+        <p class="bg-pink-400 p-2 pt-1 w-full text-center text-2xl flex justify-center items-center">
+          Most Popular
+        </p>
+        <h2 class="text-xl text-center m-2">Pro Plan</h2>
+        <p class="text-5xl">$29</p>
+        <p class="text-sm/6">/per month</p>
+        <button
+          class="bg-sky-500 text-white m-3 w-32 h-10 mt-2 mb-5 rounded hover:bg-purple-500 hover:scale-110 transition-transform duration-300">
+          Choose Plan
+        </button>
+        <h3 class="font-bold">Ideal for:</h3>
+        <p>Almost everyone</p>
+        <h3 class="font-bold">Everything in Basic, PLUS:</h3>
+        <ul>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            5 user
+          </li>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            Advanced analytics
+          </li>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            Email support
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="bg-sky-100 m-auto md:mt-12 flex flex-col items-center p-3 w-[70%] md:w-[30%] md:h-[30%] rounded-2xl">
+        <h2 class="text-xl text-center">Enterprise Plan</h2>
+        <p class="text-xl font-bold">Custom Pricing</p>
+        <p class="text-sm/6">On demand</p>
+        <button
+          class="bg-sky-500 text-white w-32 h-10 rounded mt-2 mb-5 hover:bg-purple-500 hover:scale-110 transition-transform duration-300">
+          Contact Us
+        </button>
+        <h3 class="font-bold">Ideal for:</h3>
+        <p>Enterprises or big projects</p>
+        <h3 class="font-bold">Everything in Pro, PLUS:</h3>
+        <ul>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            Unlimited users
+          </li>
+          <li
+            class="relative pl-6 before:content-['✔'] before:absolute before:left-0 before:top-0 before:text-green-500 before:text-lg">
+            Phone support
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="comparison">
+      <table class="table-fixed border border-slate-600 w-[90%] m-auto bg-teal-200">
+        <caption class="font-bold text-2xl p-2">
+          Feature Comparison Table
+        </caption>
+        <thead>
+          <tr>
+            <th class="border border-slate-600">Feature</th>
+            <th class="border border-slate-600">Free</th>
+            <th class="border border-slate-600">Pro</th>
+            <th class="border border-slate-600">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-600 text-center">Users</td>
+            <td class="border border-slate-600 text-center">1</td>
+            <td class="border border-slate-600 text-center">5</td>
+            <td class="border border-slate-600 text-center">Unlimited</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Basic support</td>
+            <td class="border border-slate-600 text-center">✅</td>
+            <td class="border border-slate-600 text-center">✅</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Unlimited projects</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Email support</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Advanced analytics</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Phone support</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Custom made</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="border border-slate-600 text-center">Dedicated Account Manager</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">❌</td>
+            <td class="border border-slate-600 text-center">✅</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="faq" class="max-w-[90%] mx-auto pb-2 mt-10 bg-teal-200 p-5 rounded-2xl">
+      <h2 class="font-bold text-2xl text-center mb-4">Frequently Asked Auestions</h2>
+      <details class="my-2">
+        <summary class="text-[115%] font-semibold cursor-pointer">Can I cancel anytime?</summary>
+        <p class="pl-5 font-[Lora]">
+          Yes, you have the flexibility to cancel your subscription at any time. Cancellation takes effect at
+          the end of your current billing cycle (monthly/annually), meaning you'll continue to have access to
+          the service until that date. We do not charge cancellation fees. For detailed steps on how to
+          cancel, please visit your "Account Settings" or contact our support team.
+        </p>
+      </details>
+
+      <details class="my-2">
+        <summary class="text-[115%] font-semibold cursor-pointer">Do you offer refunds?</summary>
+        <p class="pl-5 font-[Lora]">
+          We do not offer prorated refunds for cancellations. As outlined in our cancellation policy, your
+          service will remain active until the end of your current billing period, ensuring you receive the
+          full value of your subscription. If you believe there's been a billing error, please contact our
+          support team.
+        </p>
+      </details>
+
+      <details class="my-2">
+        <summary class="text-[115%] font-semibold cursor-pointer">Is there a free trial?</summary>
+        <p class="pl-5 font-[Lora]">
+          We offer a permanent Free Plan rather than a time-limited free trial. Please refer to our Free Plan
+          details for more information.
+        </p>
+      </details>
+
+      <details class="my-2">
+        <summary class="text-[115%] font-semibold cursor-pointer">
+          Can I get a custom plan if my needs don't fit the standard tiers?
+        </summary>
+        <p class="pl-5 font-[Lora]">
+          Yes, we understand that every organization has distinct needs. If our standard tiers don't perfectly
+          match your requirements, our Enterprise Plan offers custom pricing and features on demand. We'll
+          work closely with you to build a plan that's precisely right for your enterprise or large project.
+          Get in touch with us to plan your custom plan.
+        </p>
+      </details>
+
+      <details class="my-2">
+        <summary class="text-[115%] font-semibold cursor-pointer">
+          What payment methods do you accept?
+        </summary>
+        <p class="pl-5 font-[Lora]">
+          We accept major credit cards (Visa, Mastercard, American Express, Discover) and popular digital
+          wallets such as UPI, PayPal and Google Pay.
+        </p>
+      </details>
+    </section>
+
+    <section id="trusted" class="max-w-[90%] m-auto mt-7">
+      <h2 class="font-bold text-2xl text-center mb-4">Trusted by 10,000+ users</h2>
+      <div class="flex flex-wrap justify-center gap-4 p-0 m-0">
+        <img src="images/logoipsum-289.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-354.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-358.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-363.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-365.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-368.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-370.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-374.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-376.png" alt="logo of x" class="w-24 h-24 object-contain" />
+        <img src="images/logoipsum-377.png" alt="logo of x" class="w-24 h-24 object-contain" />
+      </div>
+    </section>
+    <section id="footer" class="bg-black mt-12">
+      <div class="flex flex-col pt-3 justify-between max-w-[90%] m-auto md:flex-row">
+        <h2 class="text-white text-3xl">Get started now</h2>
+        <button
+          class="bg-white text-black w-32 h-10 rounded mt-2 mb-5 hover:bg-sky-500 hover:scale-110 transition-transform duration-300">
+          Contact Us
+        </button>
+      </div>
+      <div class="flex justify-between">
+        <div class="text-white flex gap-3 ml-[5%]">
+          <a href="#">About</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+        <p class="text-white text-xs text-right pr-4">Copyright © 2025 Webdev Crafter. All right reserved</p>
+      </div>
+    </section>
+  </body>
+</html>
