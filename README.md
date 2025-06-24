@@ -29,7 +29,7 @@ Make a proper landing page for a business containing:
 ### Links
 
 - Solution URL: [Github](https://github.com/VikashUpadhyay442/Pricing-page)
-- Live Site URL: [Github pages](https://vikashupadhyay442.github.io/pricing-page/)
+- Live Site URL: [Github pages](https://vikashupadhyay442.github.io/Pricing-page/)
 
 ## My process
 
