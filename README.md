@@ -1,5 +1,5 @@
-# Business_landing_page
-This is a minor HTML only project as a business landing page as of now.
+# Pricing-page
+This is a minor HTML and tailwind css only project as a pricing page as of now.
 
 ## Table of contents
 
